@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { ImageConstants, contactConstants } from "../utils/constants";
+import axiosInstance from "../utils/axios";
 
 interface IStatus {
   success?: boolean;
@@ -32,15 +33,9 @@ export const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
     try {
-      const response = await fetch("http://localhost:5000/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: JSON.stringify(formDetails),
-      });
+      const response = await axiosInstance.post('/contact', formDetails);
       setButtonText("Send");
-      const result = await response.json();
+      const result = await response.data;
       setFormDetails(formInitialDetails);
       if (result.code === 200) {
         setStatus({ success: true, message: 'Message sent successfully' });
