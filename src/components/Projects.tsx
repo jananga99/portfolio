@@ -55,7 +55,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={ImageConstants.projectsBackground} alt="lala"></img>
+      <img className="background-image-left" src={ImageConstants.projectsBackground} alt="lala"></img>
     </section>
   )
 }

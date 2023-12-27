@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 // import navIcon1 from '../assets/img/nav-icon1.svg';
 // import navIcon2 from '../assets/img/nav-icon2.svg';
-import { HashLink } from 'react-router-hash-link';
+// import { HashLink } from 'react-router-hash-link';
 // import {  SiGithub } from 'react-icons/si';
 import {
   BrowserRouter as Router
@@ -56,9 +56,9 @@ export const NavBar = () => {
                 <a rel="noopener noreferrer" target="_blank" href={socialMediaConstants.githubLink}><SiGithub color="white" /></a>
                 <a rel="noopener noreferrer" target="_blank" href={socialMediaConstants.facebookLink}><SiFacebook color="white"/></a>
               </div>
-              <HashLink to='#connect'>
+              {/* <HashLink to='#connect'>
                 <button className="vvd"><span>{navConstants.contact}</span></button>
-              </HashLink>
+              </HashLink> */}
             </span>
           </Navbar.Collapse>
         </Container>

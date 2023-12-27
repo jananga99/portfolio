@@ -1,7 +1,7 @@
 import me from "../assets/img/banner/me.jpg";
 import skillsBackground from "../assets/img/banner/banner-bg2.jpg";
 import projectsBackground from "../assets/img/banner/banner-bg3.jpg";
-import footerBackground from "../assets/img/footer/footer-bg.jpg";
+import footerBackground from "../assets/img/banner/banner-bg2.jpg";
 import gymImage from "../assets/img/projects/gym.jpeg";
 import dietGuideImage from "../assets/img/projects/mobile-diet-guide.png";
 import movieAppImage from "../assets/img/projects/movie-app.png";
@@ -25,7 +25,6 @@ export const skillConstants = {
 
 export const ImageConstants = {
   me,
-  bannerBackground: "./assets/img/banner-bg.png",
   skillsBackground,
   gymImage,
   dietGuideImage,
