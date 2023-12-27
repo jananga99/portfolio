@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f08e8a20.css",
-    "main.js": "/portfolio/static/js/main.4a578d60.js",
+    "main.css": "/portfolio/static/css/main.31b71f6e.css",
+    "main.js": "/portfolio/static/js/main.70acfbe2.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
-    "static/media/banner-bg3.jpg": "/portfolio/static/media/banner-bg3.0f700843f0203400e4f5.jpg",
-    "static/media/footer-bg.jpg": "/portfolio/static/media/footer-bg.b563ef96332792a488c7.jpg",
+    "static/media/banner-bg3.jpg": "/portfolio/static/media/banner-bg3.49114c01cf9b7b36f2e4.jpg",
     "static/media/me.jpg": "/portfolio/static/media/me.ecf987c254f945a5355a.jpg",
+    "static/media/banner-bg2.jpg": "/portfolio/static/media/banner-bg2.0737eefa61837b0d9029.jpg",
     "static/media/banner-bg1.jpg": "/portfolio/static/media/banner-bg1.249d3076329dce53a149.jpg",
     "static/media/movie-app.png": "/portfolio/static/media/movie-app.5fb0a44f3dd6925fa997.png",
     "static/media/mobile-diet-guide.png": "/portfolio/static/media/mobile-diet-guide.b6ae29bce2d99e05f229.png",
-    "static/media/banner-bg2.jpg": "/portfolio/static/media/banner-bg2.2e14ed2d36e10e6569ff.jpg",
     "static/media/contact.jpeg": "/portfolio/static/media/contact.f8bd5a3b54d799af6af4.jpeg",
     "static/media/bairways.jpg": "/portfolio/static/media/bairways.70b0e29d4f7c4194ca54.jpg",
     "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -20,12 +19,12 @@
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.f08e8a20.css.map": "/portfolio/static/css/main.f08e8a20.css.map",
-    "main.4a578d60.js.map": "/portfolio/static/js/main.4a578d60.js.map",
+    "main.31b71f6e.css.map": "/portfolio/static/css/main.31b71f6e.css.map",
+    "main.70acfbe2.js.map": "/portfolio/static/js/main.70acfbe2.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f08e8a20.css",
-    "static/js/main.4a578d60.js"
+    "static/css/main.31b71f6e.css",
+    "static/js/main.70acfbe2.js"
   ]
 }
